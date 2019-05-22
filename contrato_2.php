@@ -26,6 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$dados = array('cpfCnpj' => $cpfCnpj);
 		try{             
 			$result = $client->ConsultarDetalheDividaPorCpfCnpj($dados);
+
+			echo($result);
 		}
 		catch (SoapFault $e) {
 			print_r($client->__getLastRequest());
