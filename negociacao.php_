@@ -1,0 +1,44 @@
+<?php include 'inc/header.php';?>
+
+<!-- Section 2 Servicos -->
+<section class="servico-site" id="servicos">
+ <div class="container">
+   <div class="row">
+
+     <div class="col-md-6">
+      <img class="img-fluid" src="Imagens/negociacao.png" alt="">
+    </div>
+
+		
+       <div class="col-md-6">         
+         <a class="btn btn-lg btn-block btn-outline-danger" href="#">         
+          <h2><i class="fa fa-barcode fa-3x pull-left"></i></h2><h3 class="text-left">Boleto</h3><p class="text-left">Imprima a 2ª via de seu acordo</p>
+                                
+        </a>
+
+        <a class="btn btn-lg btn-block btn-outline-danger" href="#">
+          <h2><i class="fa fa-check-circle fa-3x pull-left"></i></h2><h3 class="text-left">Comprovante</h3><p class="text-left">Envie comprovante de pagamento</p>                        
+        </a>           
+
+        <a class="btn btn-lg btn-block btn-outline-danger" href="#">
+          <h2><i class="fa fa-handshake-o fa-3x pull-left"></i></h2><h3 class="text-left">Auto Negociação</h3><p class="text-left">Regularize suas parcelas em atraso</p>                        
+        </a>
+
+        <a class="btn btn-lg btn-block btn-outline-danger" href="#">
+          <h2><i class="fa fa-whatsapp fa-3x pull-left"></i></h2>
+          <h2 class="text-left">Whatsapp</h2>
+          <p class="text-left">Entre em contato</p>                        
+        </a>
+
+        <a class="btn btn-lg btn-block btn-outline-danger" href="#">
+          <h2><i class="fa fa-phone-square fa-3x pull-left"></i></h2><h3 class="text-left">Me ligue</h3><p class="text-left">Insira seu telefone nós ligamos para você</p>                        
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section> <!-- / Section 2 -->
+
+
+
+<?php include 'inc/footer.php';?>

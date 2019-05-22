@@ -1,0 +1,871 @@
+@charset "UTF-8";
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.logo-tipo img {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 60%;
+}
+
+.cobranca-amigavel-3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.header-site {
+  position: relative;
+  background-image: url(../../Imagens/assessoria-juridica.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 230px;
+  padding-bottom: 230px;
+}
+
+.header-site:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.cobranca-amigavel {
+  position: relative;
+  background-image: url(../../Imagens/cobranca-amigavel-8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.cobranca-amigavel:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(115, 9, 48, 0.4) 0%, white 100%);
+}
+
+.contact-center2 {
+  position: relative;
+  background-image: url(../../Imagens/contact-center-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.contact-center2:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, white 0%, rgba(0, 123, 255, 0.4) 100%);
+}
+
+.juridico {
+  position: relative;
+  background-image: url(../../Imagens/banner-visao-juridica-conceito.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.juridico:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4) 0%, white 100%);
+}
+
+.trabalhe {
+  position: relative;
+  background-image: url(../../Imagens/trabalhe.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.trabalhe:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(115, 9, 13, 0.9) 0%, rgba(115, 9, 13, 0.3) 100%);
+}
+
+.vagas {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pessoa-juridica {
+  position: relative;
+  background-image: url(../../Imagens/pessoa-juridica.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.pessoa-juridica:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.pessoa-juridica h1 {
+  font-size: 60px;
+}
+
+.contact-center {
+  position: relative;
+  background-image: url(../../Imagens/recuperacao_credito.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.contact-center:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.contact-center h1 {
+  font-size: 60px;
+}
+
+.content-site {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.img-site {
+  background-image: url(../../Imagens/recuperacao_credito.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.clientes {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.clientes-diagrama {
+  background-color: #73090D;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.sobre2 {
+  background-image: url(../../Imagens/Sobre.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.contato {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contato hr {
+  background-color: #ffffff;
+}
+
+.capital-humano {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #73090D;
+  color: #ffffff;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.capital-humano hr {
+  background-color: #ffffff;
+}
+
+.servico {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.servico2 {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.servico-site {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.site-corporativo {
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.footer-site {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btns {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.efeito {
+  border: none;
+  color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.efeito-3 {
+  background: #73090D;
+}
+
+.efeito-3:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #73090D;
+  box-shadow: inset 0 0 0 3px #73090D;
+}
+
+.card-header {
+  font-size: 20px;
+}
+
+.section-aquamarine {
+  position: relative;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-aquamarine:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%);
+}
+
+.section-parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.section-parallax h1 {
+  font-size: 60px;
+}
+
+.fundo {
+  top: 0px;
+  left: 200px;
+  width: 200px;
+  height: 300px;
+}
+
+.cover {
+  min-height: 100%;
+}
+
+/* Animate on entrance */
+.animate-in-down {
+  transition: all 1.3s ease-out;
+  position: relative;
+  opacity: 1;
+  top: 0px;
+}
+
+.animate-in-down.out-of-viewport {
+  top: 40px;
+  opacity: 0;
+}
+
+.animate-in-left {
+  transition: all 1s ease-out;
+  position: relative;
+  opacity: 1;
+  left: 0%;
+}
+
+.animate-in-left.out-of-viewport {
+  opacity: 0;
+  left: -5%;
+}
+
+.animate-in-right {
+  transition: all 1s ease-out;
+  position: relative;
+  opacity: 1;
+  left: 0%;
+}
+
+.animate-in-right.out-of-viewport {
+  opacity: 0;
+  left: 5%;
+}
+
+.header-empresa {
+  position: relative;
+  background-position: center top;
+  backgroud-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.cobranca-empresa {
+  position: relative;
+  background-image: url();
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cobranca-empresa:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6) 0%, rgba(189, 141, 0, 0.6) 100%);
+}
+
+img.img-shadow,
+.feature .feature-thumb img {
+  border-radius: 0.1875rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+#frmcontatoazul {
+  padding: 5px;
+  width: 580px;
+}
+
+#frmcontatoazul fieldset {
+  border: 1px double #73090D;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#frmcontatoazul fieldset .form-group {
+  color: #30a;
+}
+
+#frmcontatoazul fieldset legend {
+  background-color: #73090D;
+  color: #ffe;
+  padding: 10px;
+  margin: 4px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#frmcontatoazul #singlebutton {
+  margin-top: 20pt;
+}
+
+#frmcontatoazul .help-block {
+  display: none;
+}
+
+.special.blue {
+  background-color: #73090D;
+  color: #FFFFFF;
+}
+
+.special .angleLineTop.gray {
+  background: linear-gradient(to bottom left, #73090D, #73090D 50%, #FFFFFF 50%, #FFFFFF);
+}
+
+.special .angleLineTop {
+  height: 160px;
+  width: 100%;
+}
+
+.special .angleLineBottom.white {
+  background: linear-gradient(to bottom left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
+}
+
+.special .angleLineBottom {
+  height: 160px;
+}
+
+div.dois {
+  line-height: 0;
+  /* correção para IE (arg!) */
+  width: 200px;
+  height: 0;
+  border: 50px solid;
+  border-color: #f00 #0f0 #0f0 #fc0;
+}
+
+@media (max-width: 767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+.contact-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+.contact-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-danger {
+  background-color: #73090D !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.brands {
+  color: #313437;
+  background-color: #fff;
+}
+
+.brands a {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (max-width: 767px) {
+  .brands a {
+    padding: 30px 0;
+  }
+}
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+  width: 0 auto;
+  height: 50px;
+}
+
+.lista-clientes {
+  display: inline-block;
+  width: 160px;
+  height: 110px;
+  text-align: center;
+  line-height: 280px;
+}
+
+.botaochat {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.chat {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  cursor: pointer;
+}
+
+.no-space, .grid {
+  padding: 0;
+  overflow: hidden;
+}
+
+.col-sm-6 {
+  width: 50%;
+  float: left;
+}
+
+.sub-title {
+  position: fixed;
+  left: 180px;
+  top: 55px;
+  cursor: pointer;
+}
+
+.divalinhacentro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centralizarImagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.candidatar {
+  padding-top: 140px;
+  padding-bottom: 130px;
+}
+
+.vagasadd {
+  padding-top: 140px;
+  padding-bottom: 130px;
+}
+
+.validarcpfcnpj {
+  width: 100%;
+  height: 300px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #73090D;
+  position: absolute;
+}
+
+.boxcpfcnpj {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fundobox {
+  width: 100%;
+  height: 400px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #73090D;
+  position: absolute;
+}
+
+.boxcontrat {
+  width: 70%;
+  margin: 100px auto;
+  display: block;
+  position: relative;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tablecontrato td th {
+  align-items: left;
+}
+
+.menuheader {
+  width: 100%;
+  height: 10px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.cpfcnpj-fundo {
+  position: relative;
+  background-image: url(../../Imagens/home_office_336373_1920.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.cpfcnpj-fundo:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.cpfcnpj-centraliza {
+  margin: 0 120px;
+  float: none;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  margin: -45px 0 0 -45px;
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 7px solid #73090D;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.envia_email {
+  position: relative;
+  background-image: url(../../Imagens/menu_trabalheconosco.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  color: #FFFFFF;
+  padding-top: 110px;
+  padding-bottom: 120px;
+  margin-top: 73px;
+}
+
+/*# sourceMappingURL=style.css.map */
